@@ -1,0 +1,204 @@
+# Site settings
+title: "Thank Goodness You're Here! Offline Setup Assistant"
+description: "Complete offline gaming solution for Thank Goodness You're Here! - No Steam, no launcher, no internet required. Experience the hilarious British comedy adventure game with our DRM-free setup assistant."
+url: "https://thank-goodness-you-re-here-offline.github.io"
+baseurl: "/thank-goodness-youre-here-offline-setup-assistant"
+
+# Author information
+author:
+  name: "Thank Goodness You're Here! Offline Team"
+  email: "support@thank-goodness-offline.com"
+  url: "https://thank-goodness-you-re-here-offline.github.io"
+
+# Repository information
+repository: "Thank-Goodness-You-re-Here-Offline/thank-goodness-youre-here-offline-setup-assistant"
+
+# SEO and Social Media
+keywords: "thank goodness youre here offline, comedy adventure game, indie game offline, british humor game, offline game setup, drm free game, portable game installation, surreal comedy, yorkshire setting, hand drawn animation, physics puzzles, open world exploration"
+
+# Social Media
+twitter:
+  username: "ThankGoodnessOffline"
+  card: "summary_large_image"
+
+facebook:
+  app_id: ""
+  publisher: ""
+
+# GitHub
+github_username: "Thank-Goodness-You-re-Here-Offline"
+
+# Theme and plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate
+
+# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Sass
+sass:
+  style: compressed
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+  - "*.prompt.md"
+  - "*_TEMPLATE.md"
+  - "*_CREDENTIALS.md"
+  - UNIVERSAL_SEO_TOOLKIT.md
+
+# Kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Game-specific information
+game:
+  name: "Thank Goodness You're Here!"
+  developer: "Coal Supper"
+  publisher: "Panic"
+  genre: "Comedy Adventure"
+  platforms: ["Windows", "macOS", "Linux", "Steam Deck"]
+  features:
+    - "Surreal British Comedy"
+    - "Open-World Exploration"
+    - "Physics-Based Puzzles"
+    - "Hand-Drawn Animation"
+    - "Controller Support"
+    - "Offline Gaming"
+
+# Project information
+project:
+  type: "gaming"
+  category: "Setup Assistant"
+  license: "MIT"
+  version: "1.0.0"
+  status: "Active"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Download"
+    url: "https://github.com/Thank-Goodness-You-re-Here-Offline/thank-goodness-youre-here-offline-setup-assistant/releases"
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "Support"
+    url: "/support/"
+  - title: "Community"
+    url: "/community/"
+
+# Footer links
+footer_links:
+  - title: "GitHub"
+    url: "https://github.com/Thank-Goodness-You-re-Here-Offline/thank-goodness-youre-here-offline-setup-assistant"
+    icon: "github"
+  - title: "Discord"
+    url: "https://discord.gg/thankgoodness"
+    icon: "discord"
+  - title: "Twitter"
+    url: "https://twitter.com/thankgoodness"
+    icon: "twitter"
+
+# Analytics (add your tracking codes)
+google_analytics: ""
+google_site_verification: ""
+
+# Sitemap
+sitemap:
+  changefreq: "weekly"
+  priority: 0.8
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Thank Goodness You're Here! Offline Team"
+      image: "/assets/images/og-image.jpg"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Thank Goodness You're Here! Offline Team"
+      image: "/assets/images/og-image.jpg"
+
+# Open Graph defaults
+og_image: "/assets/images/og-image.jpg"
+og_type: "website"
+
+# Gaming-specific metadata
+gaming:
+  esrb_rating: "T for Teen"
+  platforms:
+    windows:
+      min_os: "Windows 10 (64-bit)"
+      rec_os: "Windows 11 (64-bit)"
+      min_cpu: "Intel i3-4130 / AMD FX-6300"
+      rec_cpu: "Intel i5-8400 / AMD Ryzen 5 2600"
+      min_ram: "4 GB"
+      rec_ram: "8 GB"
+      min_gpu: "Intel HD 4000 / AMD Radeon R5 230"
+      rec_gpu: "NVIDIA GTX 1050 / AMD RX 560"
+      storage: "8-12 GB"
+    macos:
+      min_os: "macOS 10.15 Catalina"
+      rec_os: "macOS 12.0 Monterey"
+      apple_silicon: true
+      intel_support: true
+    linux:
+      min_distro: "Ubuntu 18.04 LTS"
+      steam_deck: true
+      verified: true
+
+# Contact information
+contact:
+  email: "support@thank-goodness-offline.com"
+  discord: "https://discord.gg/thankgoodness"
+  github: "https://github.com/Thank-Goodness-You-re-Here-Offline/thank-goodness-youre-here-offline-setup-assistant/issues"
+
+# Legal information
+legal:
+  copyright: "© 2024 Thank Goodness You're Here! Offline Community"
+  disclaimer: "This offline setup assistant is created for educational and preservation purposes. The original game is property of Coal Supper and Panic."
+  license_url: "https://github.com/Thank-Goodness-You-re-Here-Offline/thank-goodness-youre-here-offline-setup-assistant/blob/main/LICENSE"
+
+# Feature flags
+features:
+  offline_mode: true
+  controller_support: true
+  multi_language: true
+  drm_free: true
+  portable: true
+  no_steam: true
+  cross_platform: true
+
+# Build timestamp
+built_at: 2024-12-26 
